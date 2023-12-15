@@ -1,6 +1,8 @@
 name: Build RM2100 R2100
 
 on: 
+  repository_dispatch:
+  workflow_dispatch:
   release:
     types: [published]
 #  push:
